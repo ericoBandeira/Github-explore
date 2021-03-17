@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable","esnext"],      //adiciona funcionalidades (tipagens)                             
+    "allowJs": true,    //transicionando pra tsc                         
+    "jsx": "react-jsx",   // entender o jsx no tsc                        
+    "noEmit": true,                              
+    "strict": true,                                 
+    "moduleResolution": "node",  
+    "resolveJsonModule": true, //importar arquivos json
+    "isolatedModules": true,                
+    "allowSyntheticDefaultImports": true,        
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  },
+  "include": ["src"] //todo o codigo do app ta nesta pagina
+}
